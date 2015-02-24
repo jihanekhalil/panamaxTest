@@ -1,0 +1,10 @@
+---
+name: WordpressTest
+description: ''
+keywords: ''
+type: Default
+documentation: ''
+images:
+- name: wordpress_latest
+  source: wordpress:latest
+  type: Default
