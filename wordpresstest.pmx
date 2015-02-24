@@ -8,3 +8,9 @@ images:
 - name: wordpress_latest
   source: wordpress:latest
   type: Default
+  links:
+  - service: spotify_cassandra
+    alias: spotify_cassandra
+- name: spotify_cassandra
+  source: spotify/cassandra:latest
+  type: Default
