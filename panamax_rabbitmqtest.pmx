@@ -1,0 +1,10 @@
+---
+name: Panamax_RabbitMQTest
+description: ''
+keywords: ''
+type: Default
+documentation: ''
+images:
+- name: rabbitmq_latest
+  source: rabbitmq:latest
+  type: Default
